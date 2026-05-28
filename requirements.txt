@@ -1,0 +1,2 @@
+# Core reviewer workflow uses the Python standard library only.
+# Optional notebook display helpers in Colab are preinstalled there.

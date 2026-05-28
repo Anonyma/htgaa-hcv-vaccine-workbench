@@ -1,0 +1,30 @@
+<svg viewBox="0 0 860 220" xmlns="http://www.w3.org/2000/svg">
+<rect width="860" height="220" fill="#0d1117"/>
+<text x="430" y="22" text-anchor="middle" fill="#e6edf3" font-size="14" font-weight="600">Primary Nominee Export Files (Design C — E2-Ferritin NP)</text>
+<rect x="10" y="36" width="840" height="28" fill="#161b22" rx="2"/>
+<text x="18" y="54" fill="#8b949e" font-size="10" font-weight="600">File</text>
+<text x="310" y="54" fill="#8b949e" font-size="10" font-weight="600">Format</text>
+<text x="410" y="54" fill="#8b949e" font-size="10" font-weight="600">Length</text>
+<text x="490" y="54" fill="#8b949e" font-size="10" font-weight="600">Description</text>
+<rect x="10" y="70" width="840" height="26" fill="#1c2333" rx="2"/>
+<text x="18" y="87" fill="#e6edf3" font-size="10" font-family="monospace">final-candidate.protein.fasta</text>
+<text x="310" y="87" fill="#c9d1d9" font-size="10">Protein FASTA</text>
+<text x="410" y="87" fill="#c9d1d9" font-size="10">640 aa</text>
+<text x="490" y="87" fill="#c9d1d9" font-size="10">Consensus E2 + SpyTag/SpyCatcher + ferritin monomer</text>
+<rect x="10" y="100" width="840" height="26" fill="#161b22" rx="2"/>
+<text x="18" y="117" fill="#e6edf3" font-size="10" font-family="monospace">final-candidate.dna.fasta</text>
+<text x="310" y="117" fill="#c9d1d9" font-size="10">DNA FASTA</text>
+<text x="410" y="117" fill="#c9d1d9" font-size="10">1,920 nt</text>
+<text x="490" y="117" fill="#c9d1d9" font-size="10">Unoptimized coding sequence (Kozak + restriction sites)</text>
+<rect x="10" y="130" width="840" height="26" fill="#1c2333" rx="2"/>
+<text x="18" y="147" fill="#e6edf3" font-size="10" font-family="monospace">final-candidate.optimized.dna.fasta</text>
+<text x="310" y="147" fill="#c9d1d9" font-size="10">DNA FASTA</text>
+<text x="410" y="147" fill="#c9d1d9" font-size="10">1,920 nt</text>
+<text x="490" y="147" fill="#c9d1d9" font-size="10">Codon-optimized: GC 68.6% to 47.6% for mRNA manufacture</text>
+<rect x="10" y="160" width="840" height="26" fill="#161b22" rx="2"/>
+<text x="18" y="177" fill="#e6edf3" font-size="10" font-family="monospace">final-candidate.annotations.tsv</text>
+<text x="310" y="177" fill="#c9d1d9" font-size="10">TSV</text>
+<text x="410" y="177" fill="#c9d1d9" font-size="10">—</text>
+<text x="490" y="177" fill="#c9d1d9" font-size="10">Feature map: domains, linkers, SpyTag/SpyCatcher positions</text>
+<text x="430" y="200" text-anchor="middle" fill="#8b949e" font-size="10">Location: hcv-workbench/exports/ — all files reproducible via export_construct.py</text>
+</svg>

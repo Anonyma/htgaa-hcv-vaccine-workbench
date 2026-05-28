@@ -1,0 +1,7 @@
+region_id	protein	start	end	length	mean_conservation	epitope_or_window	sequence_hint	hla_restriction	source	include_decision	notes
+E2-win-297-311	E2	297	311	15	0.9915	conserved_window	VDYPYRLWHYPCTVN		conservation_analysis	yes	Top conserved window; overlaps CD81 binding loop region
+E2-win-183-201	E2	183	201	19	0.9773	conserved_window			conservation_analysis	yes	Second conserved cluster; E2 front layer region
+NS3-KLVALGINAV	NS3	33	42	10		T_cell_epitope	KLVALGINAV	HLA-A*02:01	IEDB	yes	18 PMIDs; 90 positive assays; dominant HCV CTL response
+NS3-CINGVCWTV	NS3	39	47	9		T_cell_epitope	CINGVCWTV	HLA-A*02:01	IEDB	yes	17 PMIDs; 57 positive assays; second NS3 dominant response
+NS5B-ALYDVVTKL	NS5B	159	167	9		T_cell_epitope	ALYDVVTKL	HLA-A*02:01	IEDB	yes	3 PMIDs; best validated NS5B CTL epitope in dataset
+NS5B-IMAKNEVFCV	NS5B	123	132	10		T_cell_epitope	IMAKNEVFCV	HLA-A*02:01	IEDB	yes	1 PMID; HLA-A*02:01 restricted NS5B CTL epitope

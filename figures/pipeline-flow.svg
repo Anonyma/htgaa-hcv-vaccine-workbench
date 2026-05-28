@@ -1,0 +1,44 @@
+<svg viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg">
+<rect width="900" height="220" fill="#0d1117"/>
+<text x="450" y="22" text-anchor="middle" fill="#e6edf3" font-size="14" font-weight="600">Computational Pipeline — 7 Stages</text>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <path d="M0,0 L8,3 L0,6 Z" fill="#8b949e"/>
+  </marker>
+</defs>
+<rect x="20" y="45" width="95" height="58" fill="#1f6feb" opacity="0.2" rx="4" stroke="#1f6feb" stroke-width="1.5"/>
+<text x="26" y="61" fill="#1f6feb" font-size="10" font-weight="700">1. Curation</text>
+<text x="26" y="79" fill="#8b949e" font-size="9">47 seqs</text>
+<text x="26" y="93" fill="#8b949e" font-size="9">from NCBI</text>
+<line x1="117" y1="74.0" x2="128" y2="74.0" stroke="#8b949e" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="130" y="45" width="95" height="58" fill="#3fb950" opacity="0.2" rx="4" stroke="#3fb950" stroke-width="1.5"/>
+<text x="136" y="61" fill="#3fb950" font-size="10" font-weight="700">2. Alignment</text>
+<text x="136" y="79" fill="#8b949e" font-size="9">MAFFT</text>
+<text x="136" y="93" fill="#8b949e" font-size="9">434 cols</text>
+<line x1="227" y1="74.0" x2="238" y2="74.0" stroke="#8b949e" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="240" y="45" width="95" height="58" fill="#d29922" opacity="0.2" rx="4" stroke="#d29922" stroke-width="1.5"/>
+<text x="246" y="61" fill="#d29922" font-size="10" font-weight="700">3. Conservation</text>
+<text x="246" y="79" fill="#8b949e" font-size="9">87.2% mean</text>
+<text x="246" y="93" fill="#8b949e" font-size="9">15-aa windows</text>
+<line x1="337" y1="74.0" x2="348" y2="74.0" stroke="#8b949e" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="350" y="45" width="95" height="58" fill="#bc8cff" opacity="0.2" rx="4" stroke="#bc8cff" stroke-width="1.5"/>
+<text x="356" y="61" fill="#bc8cff" font-size="10" font-weight="700">4. Epitope Mining</text>
+<text x="356" y="79" fill="#8b949e" font-size="9">IEDB NS3/</text>
+<text x="356" y="93" fill="#8b949e" font-size="9">NS5B lookup</text>
+<line x1="447" y1="74.0" x2="458" y2="74.0" stroke="#8b949e" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="460" y="45" width="95" height="58" fill="#f0883e" opacity="0.2" rx="4" stroke="#f0883e" stroke-width="1.5"/>
+<text x="466" y="61" fill="#f0883e" font-size="10" font-weight="700">5. Design Gen</text>
+<text x="466" y="79" fill="#8b949e" font-size="9">4 constructs</text>
+<text x="466" y="93" fill="#8b949e" font-size="9">A to D</text>
+<line x1="557" y1="74.0" x2="568" y2="74.0" stroke="#8b949e" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="570" y="45" width="95" height="58" fill="#ff7b72" opacity="0.2" rx="4" stroke="#ff7b72" stroke-width="1.5"/>
+<text x="576" y="61" fill="#ff7b72" font-size="10" font-weight="700">6. Scorecard</text>
+<text x="576" y="79" fill="#8b949e" font-size="9">100-pt</text>
+<text x="576" y="93" fill="#8b949e" font-size="9">rubric</text>
+<line x1="667" y1="74.0" x2="678" y2="74.0" stroke="#8b949e" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="680" y="45" width="95" height="58" fill="#a371f7" opacity="0.2" rx="4" stroke="#a371f7" stroke-width="1.5"/>
+<text x="686" y="61" fill="#a371f7" font-size="10" font-weight="700">7. Validation</text>
+<text x="686" y="79" fill="#8b949e" font-size="9">ESMFold</text>
+<text x="686" y="93" fill="#8b949e" font-size="9">pLDDT 0.937</text>
+<text x="450" y="200" text-anchor="middle" fill="#8b949e" font-size="10">All scripts in hcv-workbench/scripts/; inputs/outputs documented in docs/HOW-TO-RUN.md</text>
+</svg>

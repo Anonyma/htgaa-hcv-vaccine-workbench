@@ -1,0 +1,14 @@
+feature	start_aa	end_aa	length_aa	start_nt	end_nt	source	notes
+Kozak	1	6	6	1	18	Consensus	GCCACC start codon context
+E2_window_297-311	7	21	15	19	63	Consensus_E2	CD81 binding loop, 99.15% conservation
+GGGGS_linker_1	22	26	5	64	78	Synthetic	Flexible glycine-serine linker
+E2_window_183-201	27	45	19	79	135	Consensus_E2	Front layer, 97.73% conservation
+GGGGS_linker_2	46	50	5	136	150	Synthetic	Flexible glycine-serine linker
+KLVALGINAV	51	60	10	151	180	IEDB_NS3	HLA-A*02:01 epitope, 90 assays, 18 PMIDs
+GGGGS_linker_3	61	65	5	181	195	Synthetic	Flexible glycine-serine linker
+CINGVCWTV	66	74	9	196	222	IEDB_NS3	HLA-A*02:01 + Class II, 57 assays, 17 PMIDs
+GGGGS_linker_4	75	79	5	223	237	Synthetic	Flexible glycine-serine linker
+ALYDVVTKL	80	88	9	238	264	IEDB_NS5B	HLA-A*02:01 epitope, 4 assays, 3 PMIDs
+GGGGS_linker_5	89	93	5	265	279	Synthetic	Flexible glycine-serine linker
+IMAKNEVFCV	94	103	10	280	309	IEDB_NS5B	HLA-A*02:01 epitope, 4 assays, 1 PMID
+Stop_codon	104	104	1	310	312	Synthetic	TAA stop codon

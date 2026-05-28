@@ -1,0 +1,8 @@
+Design_D_Focused_Conserved_Mosaic Construct Architecture
+==================================================
+Protein length: 97 aa
+DNA length (with Kozak): 300 nt
+GC content: 41.6%
+
+Protein sequence:
+VDYPYRLWHYPCTVNGGGGSVCGPVYCFTPSPVVVGTTDGGGGSKLVALGINAVGGGGSCINGVCWTVGGGGSALYDVVTKLGGGGSIMAKNEVFCV

@@ -1,0 +1,17 @@
+Design_C_E2_Ferritin_Nanoparticle Construct Architecture
+==================================================
+Protein length: 640 aa (monomer)
+Assembled particle: 24-mer, ~1.69 MDa
+DNA length (with Kozak): 1,929 nt
+GC content: 42.2%
+
+Component map:
+  1-13   SpyTag (13 aa)
+  14-28  (G4S)x3 linker (15 aa)
+  29-462 Consensus E2 (434 aa)
+  463-467 GSGSG linker (5 aa)
+  468-634 Ferritin (H. pylori, UniProt P52093) (167 aa)
+  635-640 His6 tag (6 aa)
+
+Architecture:
+N -- [SpyTag] -- [(G4S)x3] -- [Consensus E2] -- [GSGSG] -- [Ferritin] -- [His6] -- C

@@ -1,0 +1,5 @@
+design_id	design_name	genotype_coverage_25	epitope_conservation_20	hla_coverage_15	developability_15	mrna_dna_manufacturability_15	interpretability_10	multivalency_bonus_15	base_total	total_100	decision_notes
+A	Natural E2 baseline	10	5	0	10	10	10	0	45	45	Baseline control: single genotype 1a strain; easiest to explain but zero HLA breadth
+B	Consensus E2	19	15	0	12	12	8	0	66	66	Position-wise consensus from 47-sequence alignment; broader coverage but artificial sequence
+C	E2-Ferritin Nanoparticle	19	15	0	5	5	9	15	53	68	Consensus E2 on 24-mer ferritin scaffold; +15 multivalency bonus per Kanekiyo et al. 2013; 640 aa monomer
+D	Focused Conserved Mosaic	19	20	15	14	14	7	0	89	89	97-residue peptide of highest-conservation E2 windows + IEDB T-cell epitopes; computational winner

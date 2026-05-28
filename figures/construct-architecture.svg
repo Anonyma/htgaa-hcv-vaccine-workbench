@@ -1,0 +1,24 @@
+<svg viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg">
+<rect width="900" height="200" fill="#0d1117"/>
+<text x="20" y="25" fill="#e6edf3" font-size="14" font-weight="600">Design C: E2-Ferritin Nanoparticle (640 aa monomer, ~1.69 MDa 24-mer)</text>
+<rect x="20" y="60" width="583" height="50" fill="#1f6feb" rx="3"/>
+<text x="312" y="90" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="600">Consensus E2</text>
+<rect x="603" y="60" width="7" height="50" fill="#d29922" rx="3"/>
+<rect x="610" y="60" width="17" height="50" fill="#3fb950" rx="3"/>
+<rect x="627" y="60" width="7" height="50" fill="#d29922" rx="3"/>
+<rect x="634" y="60" width="16" height="50" fill="#3fb950" rx="3"/>
+<rect x="650" y="60" width="7" height="50" fill="#d29922" rx="3"/>
+<rect x="657" y="60" width="223" height="50" fill="#bc8cff" rx="3"/>
+<text x="768" y="90" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="600">Ferritin</text>
+<text x="20" y="130" fill="#8b949e" font-size="10">1</text>
+<text x="880" y="130" text-anchor="end" fill="#8b949e" font-size="10">640</text>
+<rect x="20" y="150" width="12" height="12" fill="#1f6feb" rx="2"/>
+<text x="36" y="160" fill="#c9d1d9" font-size="11">Consensus E2 (B-cell)</text>
+<rect x="220" y="150" width="12" height="12" fill="#3fb950" rx="2"/>
+<text x="236" y="160" fill="#c9d1d9" font-size="11">SpyTag / SpyCatcher</text>
+<rect x="420" y="150" width="12" height="12" fill="#bc8cff" rx="2"/>
+<text x="436" y="160" fill="#c9d1d9" font-size="11">Ferritin scaffold</text>
+<rect x="620" y="150" width="12" height="12" fill="#d29922" rx="2"/>
+<text x="636" y="160" fill="#c9d1d9" font-size="11">G4S linkers</text>
+<text x="20" y="180" fill="#8b949e" font-size="10">Self-assembles into 24-mer nanoparticle via ferritin octahedral symmetry (Kanekiyo et al. 2013, Nature)</text>
+</svg>

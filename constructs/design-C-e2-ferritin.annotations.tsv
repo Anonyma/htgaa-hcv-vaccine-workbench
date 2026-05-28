@@ -1,0 +1,9 @@
+component	start	end	length_aa	notes
+SpyTag	1	13	13	
+(G4S)x3 linker	14	28	15	
+Consensus E2	29	462	434	
+GSGSG linker	463	467	5	
+Ferritin (P52093)	468	634	167	
+His6 tag	635	640	6	
+AR3_epitope_footprint	~230	~280	~50	CD81 binding region; see Pierce 2010 PNAS
+Ferritin_assembly_interface	~470	~640	~170	Self-assembles into 24-mer
